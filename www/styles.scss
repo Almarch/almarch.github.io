@@ -1,0 +1,442 @@
+/*-- scss:defaults --*/
+
+// Fonts
+$font-family-sans-serif: "Liberation Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-monospace: "Liberation Mono", "Courier New", monospace !default;
+
+// Navy blue color palette
+$primary: #1e3a5f !default;           // Navy blue principal
+$secondary: #2c5f8d !default;         // Medium blue
+$accent: #4a90c5 !default;            // Light blue accent
+$warm-accent: #d4a373 !default;       // Warm copper accent
+
+// Background colors
+$body-bg: #f8f9fa !default;
+$body-color: #2c3e50 !default;
+
+// Link colors
+$link-color: $secondary !default;
+$link-hover-color: $primary !default;
+
+// Navbar
+$navbar-bg: $primary !default;
+$navbar-fg: #ffffff !default;
+
+// Headings
+$headings-color: $primary !default;
+
+/*-- scss:rules --*/
+
+// Body styling
+body {
+  font-family: $font-family-sans-serif;
+  line-height: 1.6;
+  color: $body-color;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: $headings-color;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 3px solid $accent;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: $secondary;
+}
+
+// Navbar styling
+.navbar {
+  background-color: $navbar-bg !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: $navbar-fg !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: $warm-accent !important;
+  transition: color 0.3s ease;
+}
+
+.profile-photo {
+  float: left;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0.3rem 1.5rem 1rem 0;
+}
+
+@media (max-width: 576px) {
+  .profile-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+}
+
+// Index cards container
+.index-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem 0;
+  justify-content: center;
+  clear: both;
+}
+
+// Individual index card
+.index-card {
+  flex: 1 1 280px;
+  max-width: 350px;
+  background: white;
+  border: 2px solid $accent;
+  border-radius: 12px;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 6px rgba(30, 58, 95, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.index-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, $primary, $accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.index-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(30, 58, 95, 0.2);
+  border-color: $primary;
+  text-decoration: none;
+}
+
+.index-card:hover::before {
+  transform: scaleX(1);
+}
+
+.index-card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: $primary;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+.index-card:hover h2 {
+  color: $accent;
+}
+
+.index-card p {
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+  display: block;
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: $link-hover-color;
+}
+
+// Remove underline from card links
+a.index-card:hover {
+  text-decoration: none;
+}
+
+// Code blocks
+pre {
+  background-color: #f5f7fa;
+  border: 1px solid #e1e8ed;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+code {
+  font-family: $font-family-monospace;
+  background-color: #f5f7fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+// Table of contents
+.sidebar nav[role="doc-toc"] {
+  border-left: 2px solid $accent;
+  padding-left: 1rem;
+}
+
+.sidebar nav[role="doc-toc"] ul li a {
+  color: $secondary;
+  font-size: 0.9rem;
+}
+
+.sidebar nav[role="doc-toc"] ul li a:hover {
+  color: $primary;
+}
+
+// Blockquotes
+blockquote {
+  border-left: 4px solid $accent;
+  padding-left: 1rem;
+  margin-left: 0;
+  color: #555;
+  font-style: italic;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+// Buttons (if any)
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: $secondary;
+  border-color: $secondary;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(30, 58, 95, 0.2);
+}
+
+// Footer styling
+.footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 2px solid $accent;
+  color: #666;
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .index-cards {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .index-card {
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/*-- scss:defaults --*/
+$pyreml-blue: #3776AB;
+
+/*-- scss:rules --*/
+.pyreml {
+  font-family: $font-family-monospace;
+  font-weight: 600;
+  color: $pyreml-blue;
+}
+
+/* Social icons in the navbar */
+.navbar .fa-brands {
+  font-size: 1.3rem;
+  vertical-align: -0.1em;
+}
+
+.bw-root {
+  --bw-base:  #E8734A;
+  --bw-sel:   #B98FC4;
+  --bw-muted: #B9BCC0;
+
+  margin: 1.5rem 0;
+
+  .bw-layout { display: flex; gap: 1.25rem; align-items: flex-start; }
+  .bw-plot   { flex: 1 1 auto; min-width: 0; }
+  .bw-panel  { flex: 0 0 190px; font-size: 0.85rem; }
+
+  .bw-svg { width: 100%; height: auto; cursor: crosshair; }
+  &.bw-frozen .bw-svg { cursor: pointer; }
+
+  .bw-curve     { fill: none; stroke: var(--bw-base); stroke-width: 2; }
+  .bw-area-sel  { fill: var(--bw-base); opacity: 0.30; }
+  .bw-area-out  { fill: var(--bw-muted); opacity: 0.35; }
+  .bw-off-curve { fill: none; stroke: var(--bw-sel); stroke-width: 2; }
+  .bw-off-area  { fill: var(--bw-sel); opacity: 0.35; }
+
+  .bw-axis   { stroke: #555; stroke-width: 1; }
+  .bw-vbase  { stroke: #555; stroke-width: 1.5; stroke-dasharray: 4 3; }
+  .bw-vtrunc { stroke: #333; stroke-width: 1.5; }
+  .bw-vresp  { stroke: var(--bw-sel); stroke-width: 2; }
+
+  .bw-label-r    { fill: #444; font-size: 12px; }
+  .bw-tick       { fill: #666; font-size: 12px; }
+  .bw-axis-title { fill: #666; font-size: 12px; }
+
+  .bw-label  { display: block; font-weight: 600; margin-bottom: 0.3rem; }
+  .bw-slider { width: 100%; margin-bottom: 0.8rem; }
+
+  .bw-readout {
+    display: grid; grid-template-columns: 1fr auto;
+    gap: 0.2rem 0.6rem; margin: 0;
+    dt { color: #666; }
+    dd { margin: 0; font-variant-numeric: tabular-nums; text-align: right; }
+  }
+}
+
+.sx-root {
+  margin: 1.5rem 0;
+
+  .sx-layout { display: flex; gap: 1.25rem; align-items: flex-start; }
+  .sx-plot   { flex: 1 1 auto; min-width: 0; }
+  .sx-panel  { flex: 0 0 190px; font-size: 0.85rem; }
+
+  .sx-svg-cloud {
+    width: 100%; height: auto; cursor: grab; touch-action: none;
+    user-select: none;
+    &:active { cursor: grabbing; }
+  }
+
+  .sx-quad { margin-bottom: 0.9rem; }
+  .sx-svg-quad {
+    width: 100%; height: auto; display: block; touch-action: none;
+  }
+
+  .sx-arc    { fill: none; stroke: #C8CCD0; stroke-width: 1.2; }
+  .sx-qax    { stroke: #AAA; stroke-width: 1; }
+  .sx-arrow  { stroke-width: 2.2; stroke-linecap: round; }
+  .sx-head   { cursor: grab; stroke: #FFF; stroke-width: 1.5; }
+  .sx-head:active { cursor: grabbing; }
+
+  .sx-ax3d  { stroke-width: 1.5; opacity: 0.75; }
+  .sx-axlab { font-size: 13px; font-weight: 700; }
+  .sx-pt    { stroke: none; }
+
+  .sx-stepper {
+    display: flex; align-items: center; gap: 0.3rem; margin-bottom: 0.25rem;
+    button {
+      width: 21px; height: 21px; line-height: 1; padding: 0; flex: 0 0 auto;
+      border: 1px solid #CCC; border-radius: 3px; background: #FFF;
+      cursor: pointer; font-size: 0.8rem;
+      &:hover { background: #F0F0F0; }
+    }
+    .sx-sname { flex: 1 1 auto; white-space: nowrap; }
+    .sx-dval  { min-width: 30px; text-align: right;
+                font-variant-numeric: tabular-nums; }
+  }
+
+  .sx-swatch {
+    display: inline-block; width: 9px; height: 9px; border-radius: 2px;
+    margin-right: 0.3rem;
+  }
+
+  .sx-label  { display: block; font-weight: 600; margin: 0.9rem 0 0.3rem; }
+  .sx-label-first { margin-top: 0; }
+  .sx-slider { width: 100%; }
+
+  .sx-table {
+    width: 100%; margin-top: 0.9rem; border-collapse: collapse;
+    font-variant-numeric: tabular-nums; font-size: 0.82rem;
+    th { font-weight: 600; color: #666; text-align: right;
+         padding: 0.15rem 0.25rem; border-bottom: 1px solid #DDD; }
+    th:first-child { text-align: left; }
+    td { text-align: right; padding: 0.15rem 0.25rem; }
+    td:first-child { text-align: left; white-space: nowrap; }
+  }
+
+  .sx-warn {
+    color: #D62828; font-size: 0.75rem; margin-top: 0.5rem; min-height: 1em;
+  }
+}
+
+.lp-root {
+  margin: 1.5rem 0;
+
+  .lp-layout { display: flex; gap: 1.25rem; align-items: flex-start; }
+  .lp-plot   { flex: 1 1 auto; min-width: 0; }
+  .lp-panel  { flex: 0 0 170px; font-size: 0.85rem; }
+
+  .lp-svg { width: 100%; height: auto; }
+
+  .lp-curve      { fill: none; stroke-width: 2; stroke-linejoin: round; }
+  .lp-axis       { stroke: #999; stroke-width: 1; }
+  .lp-tick       { fill: #777; font-size: 11px; }
+  .lp-axis-title { fill: #555; font-size: 13px; font-style: italic; }
+
+  .lp-label       { display: block; font-weight: 600; margin: 0.9rem 0 0.3rem; }
+  .lp-label-first { margin-top: 0; }
+
+  .lp-stepper {
+    display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.9rem;
+    button {
+      width: 24px; height: 24px; line-height: 1; padding: 0; flex: 0 0 auto;
+      border: 1px solid #CCC; border-radius: 3px; background: #FFF;
+      cursor: pointer; font-size: 0.85rem;
+      &:hover:not(:disabled) { background: #F0F0F0; }
+      &:disabled { opacity: 0.35; cursor: default; }
+    }
+    .lp-oval {
+      min-width: 26px; text-align: center; font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+  }
+
+  .lp-legend {
+    list-style: none; padding: 0; margin: 0;
+    li { display: flex; align-items: center; margin-bottom: 0.15rem;
+         font-variant-numeric: tabular-nums; }
+  }
+
+  .lp-swatch {
+    display: inline-block; width: 16px; height: 3px; border-radius: 2px;
+    margin-right: 0.45rem; flex: 0 0 auto;
+  }
+}
+
+// Stack plot and side panel on narrow screens
+@media (max-width: 600px) {
+  .bw-root .bw-layout,
+  .sx-root .sx-layout,
+  .lp-root .lp-layout {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  // Reset the fixed panel width, which would otherwise apply as a height
+  .bw-root .bw-panel,
+  .sx-root .sx-panel,
+  .lp-root .lp-panel {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}

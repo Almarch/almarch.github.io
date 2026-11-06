@@ -1,0 +1,9 @@
+_site
+.quarto
+**/*.jpg
+**/*.pkl
+
+/.quarto/
+**/*.quarto_ipynb
+
+**/*_checkpoints

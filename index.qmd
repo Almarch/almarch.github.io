@@ -1,0 +1,37 @@
+---
+title: "Alexandre Marchal"
+page-layout: full
+toc: false
+---
+
+<img src="img/perso.jpeg" alt="Alexandre Marchal" class="profile-photo"/>
+
+My research revolves around a single object: the **genetic covariance matrix**, which describes how phenotypes co-vary across traits and environments through inheritance, and how individuals resemble each other, whether through pedigree, markers or, more recently, learned representations.
+I develop **statistical methods** to estimate it when it becomes large and complex, and I use it to understand **how phenotypes are built**: phenotypic plasticity, trade-offs between traits, components of heterosis.
+This places my work at the interface of quantitative genetics, statistical modeling and machine learning.
+
+<div class="index-cards"><a href="tabs/research.qmd" class="index-card"><h2>Research</h2></a><a href="tabs/publications.qmd" class="index-card"><h2>Publications</h2></a><a href="tabs/curriculum.qmd" class="index-card"><h2>Curriculum</h2></a></div>
+
+### Main contributions
+
+- **Differentiable REML on GPU.** I developed [pyreml]{.pyreml}, a mixed model library that fits REML by direct differentiation of its loss in `PyTorch`. Running on GPU, it outperforms the state-of-the-art mixed model solver `Wombat` on a dense GBLUP benchmark. Its differentiable design makes it a building block for further developments such as mixed effects neural networks.
+
+- **Factor-analytic mixed models.** With a Master’s student I supervised, I developed a Bayesian implementation of the FA model, then integrated a frequentist version in [pyreml]{.pyreml}: as far as I know, the first open-source REML implementation of the FA mixed model. We illustrated, as a proof of concept, that the kinship can be replaced by a similarity built from neural network embeddings, opening variance decomposition to non-genetic applications (text, images, etc.).
+
+- **Phenotypic plasticity and heterosis.** Using Bayesian random regression along a water-availability gradient, I demonstrated that hybrid larch heterosis, individual genetic contrasts and a growth–density trade-off were all amplified under favorable environmental conditions.
+
+- **Multivariate genetic models.** During my MSc internship, I showed that modeling two correlated yield components jointly improved oil palm selection accuracy, even without the extreme heritability or missing-data patterns usually invoked to justify multivariate models. For hybrid larch, I fitted a 6-trait Bayesian model and characterized the marginal priors induced by parameter expansion, which had not been assessed before.
+
+### Trajectory
+
+After a PhD in quantitative genetics at INRAE-Orléans (2014–2018), I spent ~5 years in the genomic breeding industry and 3 years as a data science consultant.
+I then returned to academia as a post-doc researcher at [IGMM — CNRS](https://www.igmm.cnrs.fr/en/team/ai-for-genome-interpretation/), where I work on integrating mixed model concepts into neural network models for genomic prediction.
+
+I have taught **500+** hours of statistics and genetics, including **128** hours at University, the rest to public research institutes and breeding teams.
+
+### Latest
+
+- **under review** — [[pyreml]{.pyreml}: a general-purpose, GPU-accelerated mixed model solver in Python](https://doi.org/10.64898/2026.10.20.757556).
+- **Stat, 2026** — [Bayesian implementation of the factor-analytic mixed model and application to embeddings](https://doi.org/10.1002/sta4.70164).
+- **Software, 2026** — [`meiosim`: simulate crosses and play with quantitative genetics in Python](https://github.com/AI-for-Genome-Interpretation-lab/meiosim)
+- **Scientific Reports, 2025** — [Statistical flaws of the fitness-fatigue sports performance prediction model](https://doi.org/10.1038/s41598-025-88153-7)

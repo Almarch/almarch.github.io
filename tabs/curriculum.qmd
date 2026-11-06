@@ -1,0 +1,262 @@
+---
+title: "Curriculum"
+page-layout: full
+toc: true
+---
+
+## Professional Experience
+
+**CNRS** — *Post-doc* — 2026–present  
+
+Reporting to: Daniele Raimondi.  
+Location: CNRS UMR-IGMM, Montpellier, France.
+
+- Research project on the inclusion of mixed effects in neural networks.
+- Implemented a mixed model solver performing REML on GPU.
+    - More than 12 times faster (running on A100 GPU) than the state-of-the-art software Wombat (running on 64 CPUs) on a GBLUP benchmark.
+    - Implements a wide range of mixed model specification, as listed in [pyreml]{.pyreml}'s [doc](https://ai-for-genome-interpretation-lab.github.io/pyreml/variance_structures.html)
+
+**Seenovate** — *Data Science Consultant* — 2023–2026  
+
+Reporting to: Frank Imbach.  
+Location: Montpellier, France.
+
+- Developed AI/ML products for clients and for internal projects.
+- Led the development of a platform delivering statistical inference from agronomical trials to an Agritech client, now used daily.
+Supervised other 4 developpers for 260 days over 3 years.
+- Led research projects and kept a publication record.
+- Delivered training on statistical modeling to academic research centers.
+
+**Limagrain** — *Researcher in Statistics* — 2018–2022  
+
+Reporting to: Nicolas Heslot.  
+Location: Chappes Research Center, Clermont-Ferrand, France.
+
+- Led genomic breeding projects, including a pilot, highly challenging maize breeding program:
+    - Data-driven genomic breeding decisions,
+    - Monitoring of field and greenhouse operations,
+    - Management of a maize breeding technician,
+    - Management of a 230 k€/year budget.
+- Contributed to a global platform serving genomic inference to international business teams (300+ users). My role included scientific overseeing and development.
+- Led ***Confidential*** research & reported internally. Contributed to change adoption across the organization.
+
+**Biogemma** — *Researcher in Bioinformatics* — 2018, 6 months  
+
+Reporting to: Pierre Dubreuil.  
+Location: Chappes Research Center, Clermont-Ferrand, France.
+
+- Research project on leveraging the haplotype block genome structure in GWAS.
+
+**INRAE** — *PhD Student* — 2014–2018
+
+Reporting to: Leopoldo Sánchez and Luc Pâques.  
+Location: INRAE UR-AGPF, Orléans, France.
+
+- Parameterized a Bayesian multivariate model for the prediction of reaction norms. Inferred genetic parameters and heterosis as longitudinal trajectories.
+- Adapted a water availability model to forest tree plantations at the individual tree level.
+- Demonstrated that the *Larix* genetic contrasts (heterosis and individual breeding values) were amplified with higher water availability (*i.e.* better growth conditions).
+- Contributed to the field data collection (about 3 weeks in the forest plantations) and curation.
+
+**Cirad** — *MSc Internship* — 2014, 6 months
+
+Reporting to: David Cros  
+Location: Cirad UMR-AGAP, Montpellier, France.
+
+- Investigation on the performance of bivariate mixed models in application to oil palm breeding.
+
+## Supervised internships
+
+**2025**, Master 2. *Réduction de dimension en modèle mixte bayésien.*
+
+- The intern co-authored a research article.
+
+**2021**, Master 1. *Importance de la corrélation résiduelle en modèle mixte multivarié.*
+
+**2020**, Master 2. *Predictability of exotic germplasm.* 
+
+- The intern is now in a permanent position at Limagrain.
+
+**2016**, Master 2. *Sélection de covariables climatiques impliquées dans la formation du bois du mélèze.*
+
+## Research Visits
+
+**University of Connecticut**, USA — 2017, 3 months  
+
+- PhD research visit to Carl Schlichting laboratory, Department of Ecology and Evolutionary Biology.  
+- Collaboration on the genetic variability of phenotypic plasticity.
+
+**CSIRO**, Brisbane, Australia — 2010, 6 months 
+
+- Internship at Tim Heard laboratory of Entomology.
+- Technical contribution to a research project on the biocontrol of an invasive weed using insects.
+
+## Teaching
+
+**Seenovate** — 2023–2026  
+
+Training supervision: Jérôme-Philippe Garsi.  
+Location: At the client, all of France.
+
+*Statistics* and statistical software (R) — animated 17 training sessions for a total of 44 days, with an average satisfaction grade of 8.9/10. Some trainings were not graded.
+With a conversion from days to hour of 7h/day (which is an approximation, some days were longer and some were shorter), the corresponding volume is **308 hours**.
+
+</br>
+<table>
+    <thead>
+        <tr>
+            <th>Client</th>
+            <th>Training</th>
+            <th>Date</th>
+            <th>Days</th>
+            <th>Satisfaction</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>INSERM - Paris</td>
+            <td>Bayesian inference</td>
+            <td>March 2026</td>
+            <td style="text-align: right;">2</td>
+            <td style="text-align: right;">8.9</td>
+        </tr>
+        <tr>
+            <td>INSERM - Paris</td>
+            <td>Advanced R</td>
+            <td>January 2026</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">9.2</td>
+        </tr>
+        <tr>
+            <td>ANSES - Maison Alfort</td>
+            <td>Linear mixed model</td>
+            <td>November 2025</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">9.1</td>
+        </tr>
+        <tr>
+            <td>ANSES - Maison Alfort</td>
+            <td>Linear regression</td>
+            <td>November 2025</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">9.6</td>
+        </tr>
+        <tr>
+            <td>ABM - Saint-Denis</td>
+            <td>Introduction to git</td>
+            <td>May 2025</td>
+            <td style="text-align: right;">1</td>
+            <td style="text-align: right;">-</td>
+        </tr>
+        <tr>
+            <td>ANSES - Maison Alfort</td>
+            <td>Generalized linear model</td>
+            <td>November 2024</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">10</td>
+        </tr>
+        <tr>
+            <td>ANSES - Maison Alfort</td>
+            <td>Linear mixed model</td>
+            <td>November 2024</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">9.9</td>
+        </tr>
+        <tr>
+            <td>ANSES - Maison Alfort</td>
+            <td>Linear regression</td>
+            <td>September 2024</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">8.8</td>
+        </tr>
+        <tr>
+            <td>Agritech firm 2</td>
+            <td>R, GLM and LMM</td>
+            <td>April 2024</td>
+            <td style="text-align: right;">1</td>
+            <td style="text-align: right;">9.7</td>
+        </tr>
+        <tr>
+            <td>Agritech firm 2</td>
+            <td>R, GLM and LMM</td>
+            <td>February 2024</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">7.5</td>
+        </tr>
+        <tr>
+            <td>Agritech firm 1</td>
+            <td>Initiation to statistics</td>
+            <td>December 2023</td>
+            <td style="text-align: right;">2</td>
+            <td style="text-align: right;">7.4</td>
+        </tr>
+        <tr>
+            <td>INRAE - Clermont-Ferrand</td>
+            <td>Linear mixed model</td>
+            <td>November 2023</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">8.8</td>
+        </tr>
+        <tr>
+            <td>ANSES - Maison Alfort</td>
+            <td>Generalized linear model</td>
+            <td>October 2023</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">8.4</td>
+        </tr>
+        <tr>
+            <td>INRAE - Clermont-Ferrand</td>
+            <td>Linear mixed model</td>
+            <td>October 2023</td>
+            <td style="text-align: right;">2</td>
+            <td style="text-align: right;">-</td>
+        </tr>
+        <tr>
+            <td>ANSES - Maison Alfort</td>
+            <td>Advanced R</td>
+            <td>June 2023</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">8.8</td>
+        </tr>
+        <tr>
+            <td>ANSES - Maison Alfort</td>
+            <td>Initiation to statistics</td>
+            <td>May 2023</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">8.5</td>
+        </tr>
+        <tr>
+            <td>INRAE - Clermont-Ferrand</td>
+            <td>Initiation to R</td>
+            <td>March 2023</td>
+            <td style="text-align: right;">3</td>
+            <td style="text-align: right;">9.1</td>
+        </tr>
+    </tbody>
+</table>
+</br>
+
+**Limagrain** — 2018–2022  
+
+*Genomic Selection* and *Quantitative genetics*: from theory to the optimal use of the internal platform — Internal trainings for an international community of breeders.
+
+- Contribution to the annual internal training program (2 sessions of several days per year, interrupted during Covid-19, ≈ 35 hours in total).
+- 1 week visit at AgReliant, Westfield USA for an intensive training (5 days, ≈ 35 hours).
+- Preparation of the video supports during Covid-19.
+
+**University of Orléans** — 2014–2018  
+
+Intervention in classes of: Arnaud Menuet and Thierry Normand
+
+*Genetics* (Mendelian / populations / quantitative) — Assistant teacher for 2 years, for a total of **128h**. Developped a breeding simulator for a series of practical courses on quantitative genetics.
+
+## Education
+
+**PhD in Quantitative Genetics** — 2014–2018  
+INRAE & University of Orléans - Doctoral school 549 - SSBCV
+
+**MSc in Statistics for Health and Life Sciences** — 2014  
+University of Montpellier
+
+**MSc in Agriculture, specialized in Plant Productions** — 2013  
+UniLaSalle Beauvais
+

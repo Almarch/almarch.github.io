@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "Alexandre Marchal"
+  favicon: www/favicon.png
+
+  navbar:
+    right:
+      - text: "<i class='fa-brands fa-github'></i>"
+        href: https://github.com/almarch
+        aria-label: GitHub
+      - text: "<i class='fa-brands fa-linkedin'></i>"
+        href: https://linkedin.com/in/alexandre-marchal-a95109228
+        aria-label: LinkedIn
+      - text: "<i class='fa-brands fa-researchgate'></i>"
+        href: https://researchgate.net/profile/alexandre-marchal
+        aria-label: ResearchGate
+    left:
+      - href: tabs/research.qmd
+        text: Research
+      - href: tabs/publications.qmd
+        text: Publications
+      - href: tabs/curriculum.qmd
+        text: Curriculum
+
+format:
+  html:
+    theme: www/styles.scss
+    embed-resources: true
+    smooth-scroll: true
+    toc: true
+    toc-location: right
+    toc-title: "Contents"
+    html-math-method: mathjax
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+    include-after-body:
+      - text: |
+          <script src="../www/script.js"></script>

@@ -1,0 +1,53 @@
+---
+title: "Publications"
+page-layout: full
+toc: false
+---
+
+::: {.callout-note title="About the 2019–2025 gap in my publication record."}
+The gap corresponds to my industry years at Biogemma and then Limagrain, where research is internal and remains confidential.
+See the [curriculum](curriculum.qmd) section for more information on the content of this professional experience.
+These years shaped the questions I work on today: how a statistical model turns into an actual selection decision, and why methods have to run at scale.
+As a consultant (2023–2026), I resumed publishing alongside client work.
+:::
+
+## Articles
+
+*under review* - **Marchal, A.**, Trottier, C., Bry, X., Raimondi, D. `pyreml`*: a general-purpose, GPU-accelerated mixed model solver in Python*. bioRxiv preprint: [https://doi.org/10.64898/2026.10.20.757556](https://doi.org/10.64898/2026.10.20.757556)
+
+2026 - **Marchal, A.**, Lamure, M., Lefort, T., Imbach, F. *Bayesian implementation of the factor-analytic mixed model and application to embeddings.* Stat 15, no. 3: e70164. [https://doi.org/10.1002/sta4.70164](https://doi.org/10.1002/sta4.70164)
+
+2025 - **Marchal, A.**, Benazieb, O., Weldegebriel, Y., Méline, T., Imbach, F. *Statistical flaws of the fitness-fatigue sports performance prediction model*. Scientific Reports, 15(1), 3706. [https://doi.org/10.1038/s41598-025-88153-7](https://doi.org/10.1038/s41598-025-88153-7)
+
+2019 - **Marchal, A.**, Schlichting, C. D., Gobin, R., Balandier, P., Millier, F., Muñoz, F., Pâques, L. E., Sánchez, L. *Deciphering Hybrid Larch Reaction Norms Using Random Regression.* G3: Genes, Genomes, Genetics, 9(1), 21-32. [https://doi.org/10.1534/g3.118.200697](https://doi.org/10.1534/g3.118.200697)
+
+2017 - **Marchal, A.**, Muñoz, F., Millier, F., Sánchez, L., Pâques, L. E. *Hybrid larch heterosis: for which traits and under which genetic control?* Tree Genetics & Genomes, 13, 92. [https://doi.org/10.1007/s11295-017-1177-1](https://doi.org/10.1007/s11295-017-1177-1)
+
+2016 - **Marchal, A.**, Legarra, A., Tisné, S., Carasco-Lacombe, C., Manez, A., Suryana, E., Omoré, A., Nouy, B., Durand-Gasselin, T., Sánchez, L., Bouvet, J.-M., Cros, D. *Multivariate genomic model improves analysis of oil palm (*Elaeis guineensis *Jacq.) progeny tests.* Molecular Breeding, 36, 2. [https://doi.org/10.1007/s11032-015-0423-1](https://doi.org/10.1007/s11032-015-0423-1)
+
+## Software
+
+2026 - **Marchal, A.**, & Raimondi, D. `pyreml` - general-purpose linear mixed model solver. [https://doi.org/10.5281/zenodo.21394319](https://doi.org/10.5281/zenodo.21394319)
+
+2026 - **Marchal, A.**, & Raimondi, D. `meiosim`: a toolbox to simulate crosses and play with quantitative genetics in Python. [https://doi.org/10.5281/zenodo.21134827](https://doi.org/10.5281/zenodo.21134827)
+
+2016 - **Marchal, A.** `Breeding Simulator`. [https://doi.org/10.5281/zenodo.22171565](https://doi.org/10.5281/zenodo.22171565)
+
+## Presentations
+
+2017 - **Marchal A.**, Pâques L.E., Sánchez L. *La régression aléatoire appliquée à l'étude de la dendroplasticité.* Invited teacher. Presented the 30/06/2017 in: Ecole thématique - Plasticité phénotypique, des concepts à l'analyse de données, Aussois, France.
+
+2015 - **Marchal A.**, Pâques L.E., Sánchez L. *Random regression as a tool for reaction norms modeling.* Presented the 05/11/2015 in: GDR PlasPhen, Paris, France.
+
+## Posters
+
+2017 - **Marchal A.**, Schlichting C.D., Gobin R., Muñoz F., Millier F., Pâques L.E., Sánchez L. *Role of phenotypic plasticity in the expression of hybrid larch heterosis: a case study using random regression modeling.* Presented the 11/03/2017 in: Early Career Scientists Symposium on Phenotypic Plasticity, University of Michigan, Ann Arbor, MI, USA. [https://hal.science/hal-01594923v1](https://hal.science/hal-01594923v1)
+
+## Reports
+
+2018-2022 ***Confidential*** production on genomic selection and quantitative genetics at Biogemma & Limagrain.
+
+2018 - **Marchal, A.** *Larch hybrid vigor and role of the phenotypic plasticity in the construction of heterosis.* PhD thesis, University of Orléans & INRAE. [https://theses.hal.science/tel-02145222/](https://theses.hal.science/tel-02145222/)
+
+2014 - **Marchal, A.** *Sélection génomique multivariée chez le palmier à huile.* Cirad - MSc dissertation, Statistique des sciences de la vie et de la santé, Université Montpellier 2. [https://agritrop.cirad.fr/580995/](https://agritrop.cirad.fr/580995/)
+
