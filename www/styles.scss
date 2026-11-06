@@ -243,16 +243,33 @@ blockquote {
 }
 
 // Responsive design
+// Responsive design
 @media (max-width: 768px) {
+  // Stack the cards as compact full-width buttons
   .index-cards {
     flex-direction: column;
     align-items: stretch;
+    gap: 0.5rem;
+    margin: 1.5rem 0;
   }
-  
+
   .index-card {
-    max-width: 100%;
+    flex: 0 0 auto;
+    max-width: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
   }
-  
+
+  .index-card h2 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+
+  // No lift effect on touch screens
+  .index-card:hover {
+    transform: none;
+  }
+
   h1 {
     font-size: 2rem;
   }
@@ -285,7 +302,7 @@ $pyreml-blue: #3776AB;
   .bw-plot   { flex: 1 1 auto; min-width: 0; }
   .bw-panel  { flex: 0 0 190px; font-size: 0.85rem; }
 
-  .bw-svg { width: 100%; height: auto; cursor: crosshair; }
+  .bw-svg { width: 100%; height: auto; cursor: crosshair; touch-action: pan-y; }
   &.bw-frozen .bw-svg { cursor: pointer; }
 
   .bw-curve     { fill: none; stroke: var(--bw-base); stroke-width: 2; }
