@@ -127,14 +127,14 @@ With a conversion from days to hour of 7h/day (which is an approximation, some d
             <td style="text-align: right;">9.2</td>
         </tr>
         <tr>
-            <td>ANSES - Maison Alfort</td>
+            <td>ANSES - Maisons-Alfort </td>
             <td>Linear mixed model</td>
             <td>November 2025</td>
             <td style="text-align: right;">3</td>
             <td style="text-align: right;">9.1</td>
         </tr>
         <tr>
-            <td>ANSES - Maison Alfort</td>
+            <td>ANSES - Maisons-Alfort </td>
             <td>Linear regression</td>
             <td>November 2025</td>
             <td style="text-align: right;">3</td>
@@ -148,21 +148,21 @@ With a conversion from days to hour of 7h/day (which is an approximation, some d
             <td style="text-align: right;">-</td>
         </tr>
         <tr>
-            <td>ANSES - Maison Alfort</td>
+            <td>ANSES - Maisons-Alfort </td>
             <td>Generalized linear model</td>
             <td>November 2024</td>
             <td style="text-align: right;">3</td>
             <td style="text-align: right;">10</td>
         </tr>
         <tr>
-            <td>ANSES - Maison Alfort</td>
+            <td>ANSES - Maisons-Alfort </td>
             <td>Linear mixed model</td>
             <td>November 2024</td>
             <td style="text-align: right;">3</td>
             <td style="text-align: right;">9.9</td>
         </tr>
         <tr>
-            <td>ANSES - Maison Alfort</td>
+            <td>ANSES - Maisons-Alfort </td>
             <td>Linear regression</td>
             <td>September 2024</td>
             <td style="text-align: right;">3</td>
@@ -197,7 +197,7 @@ With a conversion from days to hour of 7h/day (which is an approximation, some d
             <td style="text-align: right;">8.8</td>
         </tr>
         <tr>
-            <td>ANSES - Maison Alfort</td>
+            <td>ANSES - Maisons-Alfort </td>
             <td>Generalized linear model</td>
             <td>October 2023</td>
             <td style="text-align: right;">3</td>
@@ -211,14 +211,14 @@ With a conversion from days to hour of 7h/day (which is an approximation, some d
             <td style="text-align: right;">-</td>
         </tr>
         <tr>
-            <td>ANSES - Maison Alfort</td>
+            <td>ANSES - Maisons-Alfort </td>
             <td>Advanced R</td>
             <td>June 2023</td>
             <td style="text-align: right;">3</td>
             <td style="text-align: right;">8.8</td>
         </tr>
         <tr>
-            <td>ANSES - Maison Alfort</td>
+            <td>ANSES - Maisons-Alfort </td>
             <td>Initiation to statistics</td>
             <td>May 2023</td>
             <td style="text-align: right;">3</td>
