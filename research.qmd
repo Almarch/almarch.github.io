@@ -2,7 +2,7 @@
 title: "Research"
 page-layout: full
 toc: true
-bibliography: ../refs.bib
+bibliography: refs.bib
 format:
   html:
     number-sections: true
@@ -186,7 +186,7 @@ Multivariate modeling can thus improve GBLUP selection accuracy even in this con
 
 ![
   Improvement in the GCA selection accuracy for both heterotic groups A and B, and for both traits BN and ABW, when using a bivariate GBLUP instead of a univariate one [from @marchal_multivariate_2016].
-](../img/multivariate_oilpalm.png){#fig-multivariate_oilpalm width=300 fig-align="center"}
+](img/multivariate_oilpalm.png){#fig-multivariate_oilpalm width=300 fig-align="center"}
 
 I also carried out a cross-validation, which did not confirm a gain in prediction accuracy [@marchal_selection_2014].
 This is less contradictory than it seems: the model's main goal is not to brute-force predict the phenotype $y$, but to obtain the most accurate representation of its genetic components.
@@ -219,7 +219,7 @@ Using simulation, I confirmed that:
 ![
   Marginal prior for the variances (a) and the correlations (b), from a PX inverse-Wishart ($p = 6$ dimensions, $\mathbf{V} = \mathbf{I_6}$, $\nu = p + 1 = 7$),
   and PX hyperparameters $\mathbf{V_\alpha} = 1000\,\mathbf{I_6}$, $\mu_\alpha = 0$ [from @marchal_larch_2018]
-](../img/marginal_prior.png){#fig-marginal_prior width=600 fig-align="center"}
+](img/marginal_prior.png){#fig-marginal_prior width=600 fig-align="center"}
 
 After obtaining apparently converged Markov chains, I could draw the full inference over all genetic parameters, including all genetic correlations between traits, as summarized in [@fig-multivariate_larix].
 Based on the 95% credible intervals (CI), some of these correlations were significantly different from $0$, notably between BHC and HT, and between HT and DEN, indicating that taller trees tend to be both larger and denser.
@@ -227,7 +227,7 @@ This is good news for breeding: these 3 traits, all with a positive economic val
 
 ![
   Genetic additive correlations between 6 traits of interest for larch breeding: breast-height circumference (BHC), height (HT), wood density (DEN), heartwood proportion (HWP), stem flexuosity (FLX), bud flush phenology (BUD); observed in 3 sites (SA, SS, PC); either in pure species (E and J for European and Japanese larch respectively) or in hybridization (HE and HJ respectively) [from @marchal_hybrid_2017].
-](../img/multivariate_larix.png){#fig-multivariate_larix width=1000 fig-align="center"}
+](img/multivariate_larix.png){#fig-multivariate_larix width=1000 fig-align="center"}
 
 One difficulty met here stayed with me: with 6 traits, each covariance matrix already holds 21 parameters, and their number grows quadratically with the number of traits.
 Some of these models took weeks to run, and as traits are added, estimating all parameters both fast and reliably becomes out of reach, which calls for more parsimonious structures such as the factor-analytic model (@sec-fa).
@@ -306,7 +306,7 @@ Two traits were analyzed, for a given sample and a given year: ring width (RW) a
 
 ![
   Microdensitometric profile (on top), obtained from the radiography (in the middle) of a wood core sample (at the bottom) [from @marchal_deciphering_2019].
-](../img/illustration_larix.png){#fig-illustration_larix width=400 fig-align="center"}
+](img/illustration_larix.png){#fig-illustration_larix width=400 fig-align="center"}
 
 To describe the environment, I developed a daily water availability model inspired by the closed-source, licensed model BILJOU© [@granier_lumped_1999; @breda_temperate_2006; @marchal_deciphering_2019], adapted to the specificities of our trial: the leaf area index (LAI) varies over time, and the available water capacity (AWC) varies spatially.
 Neither was covered by BILJOU©.
@@ -326,7 +326,7 @@ On the other hand, the reaction norms of RMD were flat with respect to D1rew, th
 ![
   Reaction norms of RW (a, c) and RMD (b, d) along the environmental covariate D1rew, in the sites SA (a-b) and SS (c-d), for each taxon: European larch (in blue), Japanese larch (in red) and their hybrid (in green).
   Dashed lines: 95% credible intervals [from @marchal_deciphering_2019]
-](../img/heterosis_larix.png){#fig-heterosis_larix width=700 fig-align="center"}
+](img/heterosis_larix.png){#fig-heterosis_larix width=700 fig-align="center"}
 
 Heterosis is thus not a static property of the hybrid: it is itself a plastic trait.
 
@@ -340,7 +340,7 @@ The Japanese larch showed more contrasted results, and for simplicity this secti
   Narrow-sense heritabilities along D1rew for Japanese larch, for the traits: RW (c) and RMD (d).
   Black line: heritability in pure species crosses; and grey line: heritability in hybridization.
   Dashed lines: 95% credible intervals [from @marchal_deciphering_2019].
-](../img/h2_larix.png){#fig-h2_larix width=600 fig-align="center"}
+](img/h2_larix.png){#fig-h2_larix width=600 fig-align="center"}
 
 The heritability of RW was extremely low, whereas the heritability of RMD was estimable (around $h^2 = 0.10$), with a slight though non-significant trend to increase with higher D1rew ([@fig-h2_larix]).
 The heritability was identical in hybridization and in pure species breeding.
@@ -350,7 +350,7 @@ The additive genetic correlation between RW and RMD, however, showed a clear pat
   Additive genetic correlation between RW and RMD along D1rew, for Japanese larch.
   Black line: correlation in pure species crosses; and grey line: correlation in hybridization.
   Dashed lines: 95% credible intervals [from @marchal_deciphering_2019].
-](../img/rA_larix.png){#fig-rA_larix width=300 fig-align="center"}
+](img/rA_larix.png){#fig-rA_larix width=300 fig-align="center"}
 
 These genetic variance parameters summarize the distribution of the genetic performances (breeding values and GCAs) of the founders of the genetic trials ([@fig-gca_larix]).
 The genetic performances were more contrasted for RMD and tended to diverge with higher D1rew, in agreement with the trend observed for the heritability.
@@ -361,7 +361,7 @@ Though not represented here, some of these contrasts between founders were signi
 ![
   Genetic performances with 95% CIs (dashed lines) for some contrasted Japanese larch parents for RW (e, f) and RMD (g, h), in pure species (breeding value) (e, g) and in hybridization (twice the GCA) (f, h), along D1rew.
   Each color represents one genotype, labeled in the legend on the right [from @marchal_deciphering_2019].
-](../img/gca_larix.png){#fig-gca_larix width=700 fig-align="center"}
+](img/gca_larix.png){#fig-gca_larix width=700 fig-align="center"}
 
 In a nutshell, the expression of all genetic contrasts was conditional on water availability: heterosis at the taxon level in growth (RW), and individual performances, especially in density (RMD).
 With high D1rew, a trade-off emerged between RW and RMD, which can be read as follows: favorable conditions are converted either into more wood (RW) or into denser wood (RMD), and genotypes differ in which way they go.
@@ -423,7 +423,7 @@ The second, replacing the kinship with neural network embeddings, is presented i
   The FA1 and FA2 accuracies ($r_{FA}$) are the correlations of the columns of $\hat{\mathbf{Q}}$ with the ground-truth, simulated $\mathbf{Q}$.
   The clustering match is defined as the match between the estimated and the ground-truth clusters of the simulation, from a 2-clusters segmentation.
   $R^2_{FA}$ is the proportion of variance captured by $\mathbf{Q}\mathbf{\Lambda}\mathbf{Q}^\top$ in opposition to $\mathbf{\Psi}$ [from @marchal_bayesian_2026].
-](../img/fa_embeddings.png){#fig-fa_embeddings width=500 fig-align="center"}
+](img/fa_embeddings.png){#fig-fa_embeddings width=500 fig-align="center"}
 
 Retrieving the latent structure can be a goal in itself: more than a computational trick reducing the number of parameters to estimate, the latent structure can be considered meaningful on its own.
 In quantitative genetics, its leading axes are the directions of the trait space along which most genetic variance lies, *i.e.* the directions along which selection, artificial or natural, is most effective.
@@ -436,7 +436,7 @@ The benchmark was carried out on the *Arabidopsis thaliana* 1001 genomes and the
 
 ![
   Correlation circle of *A. thaliana* traits, as directly inferred in a FA mixed model using [pyreml]{.pyreml}, and which is consistent to the one estimated using `Wombat` [from @marchal_pyreml]
-](../img/pca_pyreml.png){#fig-pca_pyreml width=500 fig-align="center"}
+](img/pca_pyreml.png){#fig-pca_pyreml width=500 fig-align="center"}
 
 As far as I know, this is the first open-source REML implementation of the FA mixed model.
 When adjusting [pyreml]{.pyreml} convergence criterion to meet `Wombat`'s, both software led to the same estimates, which validated the algorithmic approach.
@@ -481,7 +481,7 @@ With some optimization (see the [doc](https://ai-for-genome-interpretation-lab.g
   [pyreml]{.pyreml} runs on 2 different GPUs (L40S and A100), both on `float64` ("double") numerical resolution and a custom ("mixed") strategy consisting in pre-heating with `float32` and finishing on `float64`.
   `Wombat` runs on $64$ CPUs, and 3 algorithms are tested: AI (average information), EM (expectation-maximization) and PX-AI (a mix of parameter expansion and AI).
   EM was not run after $n > 5000$ as it was very slow, and all variance estimates and BLUP accuracies were identical across software, hardware and methods except for AI with $n \geq 10000$ [from @marchal_pyreml].
-](../img/benchmark_pyreml.png){#fig-benchmark_pyreml width=600 fig-align="center"}
+](img/benchmark_pyreml.png){#fig-benchmark_pyreml width=600 fig-align="center"}
 
 Three aspects of this benchmark deserve attention beyond raw speed.
 First, the comparison is deliberately set on each tool's own hardware: `Wombat` on a 64-CPU machine with its three algorithms, [pyreml]{.pyreml} on GPU.
