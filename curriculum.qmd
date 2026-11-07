@@ -6,7 +6,7 @@ toc: true
 
 ## Professional Experience
 
-**CNRS** — *Post-doc* — 2026–present  
+**CNRS** — *Post-doc* — 2026–present
 
 Reporting to: Daniele Raimondi.  
 Location: CNRS UMR-IGMM, Montpellier, France.
@@ -27,7 +27,7 @@ Supervised other 4 developpers for 260 days over 3 years.
 - Led research projects and kept a publication record.
 - Delivered training on statistical modeling to academic research centers.
 
-**Limagrain** — *Researcher in Statistics* — 2018–2022  
+**Limagrain** — *Researcher in Statistics* — 2018–2022
 
 Reporting to: Nicolas Heslot.  
 Location: Chappes Research Center, Clermont-Ferrand, France.
@@ -40,14 +40,14 @@ Location: Chappes Research Center, Clermont-Ferrand, France.
 - Contributed to a global platform serving genomic inference to international business teams (300+ users). My role included scientific overseeing and development.
 - Led ***Confidential*** research & reported internally. Contributed to change adoption across the organization.
 
-**Biogemma** — *Researcher in Bioinformatics* — 2018, 6 months  
+**Biogemma** — *Researcher in Bioinformatics* — 2018, 7 months  
 
 Reporting to: Pierre Dubreuil.  
 Location: Chappes Research Center, Clermont-Ferrand, France.
 
 - Research project on leveraging the haplotype block genome structure in GWAS.
 
-**INRAE** — *PhD Student* — 2014–2018
+**INRAE** — *PhD Student* — 2014–2017
 
 Reporting to: Leopoldo Sánchez and Luc Pâques.  
 Location: INRAE UR-AGPF, Orléans, France.

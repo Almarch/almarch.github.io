@@ -10,7 +10,7 @@ My research revolves around a single object: the **genetic covariance matrix**, 
 I develop **statistical methods** to estimate it when it becomes large and complex, and I use it to understand **how phenotypes are built**: phenotypic plasticity, trade-offs between traits, components of heterosis.
 This places my work at the interface of quantitative genetics, statistical modeling and machine learning.
 
-<div class="index-cards"><a href="tabs/research.qmd" class="index-card"><h2>Research</h2></a><a href="tabs/publications.qmd" class="index-card"><h2>Publications</h2></a><a href="tabs/curriculum.qmd" class="index-card"><h2>Curriculum</h2></a></div>
+<div class="index-cards"><a href="research.qmd" class="index-card"><h2>Research</h2></a><a href="publications.qmd" class="index-card"><h2>Publications</h2></a><a href="curriculum.qmd" class="index-card"><h2>Curriculum</h2></a></div>
 
 ### Main contributions
 

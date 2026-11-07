@@ -17,11 +17,11 @@ website:
         href: https://researchgate.net/profile/alexandre-marchal
         aria-label: ResearchGate
     left:
-      - href: tabs/research.qmd
+      - href: research.qmd
         text: Research
-      - href: tabs/publications.qmd
+      - href: publications.qmd
         text: Publications
-      - href: tabs/curriculum.qmd
+      - href: curriculum.qmd
         text: Curriculum
 
 format:
