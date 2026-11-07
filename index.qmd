@@ -27,7 +27,7 @@ This places my work at the interface of quantitative genetics, statistical model
 After a PhD in quantitative genetics at INRAE-Orléans (2014–2018), I spent ~5 years in the genomic breeding industry and 3 years as a data science consultant.
 I then returned to academia as a post-doc researcher at [IGMM — CNRS](https://www.igmm.cnrs.fr/en/team/ai-for-genome-interpretation/), where I work on integrating mixed model concepts into neural network models for genomic prediction.
 
-I have taught **500+** hours of statistics and genetics, including **128** hours at University, the rest to public research institutes and breeding teams.
+I have taught **700+** hours, starting with science tutoring during my studies (197 hours), then as a teaching assistant at the University of Orléans during my PhD (128 hours), and in professional training (about 378 hours). I have also supervised 4 MSc interns.
 
 ### Latest
 

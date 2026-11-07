@@ -57,12 +57,26 @@ Location: INRAE UR-AGPF, Orléans, France.
 - Demonstrated that the *Larix* genetic contrasts (heterosis and individual breeding values) were amplified with higher water availability (*i.e.* better growth conditions).
 - Contributed to the field data collection (about 3 weeks in the forest plantations) and curation.
 
+**University of Connecticut**, USA — 2017, 3 months  
+
+- PhD research visit to Carl Schlichting laboratory, Department of Ecology and Evolutionary Biology.  
+- Collaboration on the genetic variability of phenotypic plasticity.
+
 **Cirad** — *MSc Internship* — 2014, 6 months
 
 Reporting to: David Cros  
 Location: Cirad UMR-AGAP, Montpellier, France.
 
 - Investigation on the performance of bivariate mixed models in application to oil palm breeding.
+
+**Acadomia** — *Private tutoring* — 2011–2013  
+
+- Alongside my studies, tutoring of high school and middle school students in scientific subjects.
+
+**CSIRO**, Brisbane, Australia — 2010, 6 months 
+
+- Internship at Tim Heard laboratory of Entomology.
+- Technical contribution to a research project on the biocontrol of an invasive weed using insects.
 
 ## Supervised internships
 
@@ -77,18 +91,6 @@ Location: Cirad UMR-AGAP, Montpellier, France.
 - The intern is now in a permanent position at Limagrain.
 
 **2016**, Master 2. *Sélection de covariables climatiques impliquées dans la formation du bois du mélèze.*
-
-## Research Visits
-
-**University of Connecticut**, USA — 2017, 3 months  
-
-- PhD research visit to Carl Schlichting laboratory, Department of Ecology and Evolutionary Biology.  
-- Collaboration on the genetic variability of phenotypic plasticity.
-
-**CSIRO**, Brisbane, Australia — 2010, 6 months 
-
-- Internship at Tim Heard laboratory of Entomology.
-- Technical contribution to a research project on the biocontrol of an invasive weed using insects.
 
 ## Teaching
 
@@ -237,9 +239,9 @@ With a conversion from days to hour of 7h/day (which is an approximation, some d
 
 **Limagrain** — 2018–2022  
 
-*Genomic Selection* and *Quantitative genetics*: from theory to the optimal use of the internal platform — Internal trainings for an international community of breeders.
+*Genomic Selection* and *Quantitative genetics*: from theory to the optimal use of the internal platform — Internal trainings for an international community of breeders, for a total of ≈ **70 hours**.
 
-- Contribution to the annual internal training program (2 sessions of several days per year, interrupted during Covid-19, ≈ 35 hours in total).
+- Contribution to the annual internal training program (2 sessions of several days per year, interrupted during Covid-19, ≈ 35 hours).
 - 1 week visit at AgReliant, Westfield USA for an intensive training (5 days, ≈ 35 hours).
 - Preparation of the video supports during Covid-19.
 
@@ -247,7 +249,12 @@ With a conversion from days to hour of 7h/day (which is an approximation, some d
 
 Intervention in classes of: Arnaud Menuet and Thierry Normand
 
-*Genetics* (Mendelian / populations / quantitative) — Assistant teacher for 2 years, for a total of **128h**. Developped a breeding simulator for a series of practical courses on quantitative genetics.
+- *Genetics* (Mendelian / populations / quantitative) — Assistant teacher for 2 years, for a total of **128h**.
+- Developped a breeding simulator for a series of practical courses on quantitative genetics.
+
+**Acadomia** — 2011–2013  
+
+- One-to-one teaching of high school and middle school students in scientific subjects, for a total of **197 hours**.
 
 ## Education
 
