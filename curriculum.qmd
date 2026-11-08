@@ -14,7 +14,13 @@ Location: CNRS UMR-IGMM, Montpellier, France.
 - Research project on the inclusion of mixed effects in neural networks.
 - Implemented a mixed model solver performing REML on GPU.
     - More than 12 times faster (running on A100 GPU) than the state-of-the-art software Wombat (running on 64 CPUs) on a GBLUP benchmark.
-    - Implements a wide range of mixed model specification, as listed in [pyreml]{.pyreml}'s [doc](https://ai-for-genome-interpretation-lab.github.io/pyreml/variance_structures.html)
+    - Implements a wide range of mixed model specification, including the factor-analytic model.
+    All specifications are listed in [pyreml]{.pyreml}'s [doc](https://ai-for-genome-interpretation-lab.github.io/pyreml/variance_structures.html)
+
+**Seenovate** — *Data Science Consultant* — 2023–2026  
+
+Reporting to: Frank Imbach.  
+Location: Montpellier, France.
 
 **Seenovate** — *Data Science Consultant* — 2023–2026  
 
@@ -22,9 +28,15 @@ Reporting to: Frank Imbach.
 Location: Montpellier, France.
 
 - Developed AI/ML products for clients and for internal projects.
-- Led the development of a platform delivering statistical inference from agronomical trials to an Agritech client, now used daily.
-Supervised other 4 developpers for 260 days over 3 years.
-- Led research projects and kept a publication record.
+    - Led the development of a platform delivering statistical inference from agronomic trials to an agritech client, now used daily by its business teams. Supervised 4 other developers for 260 days over 3 years.
+- Contributed to internal R&D projects and kept a publication record.
+    - Challenged a reference sports performance prediction model that we originally intended to turn into a commercial product.
+    The statistical flaws I identified led us to step back and pursue research on a more relevant model.
+    - Contributed to natural language processing products, with a focus on vector databases.
+    Supervised an intern and showed that embeddings could be exploited within the mixed model framework.
+- Contributed to clients' R&D projects:
+    - Proposed a parametric approach to model the growth curves of domestic animals, and compared it with the client's current approach.
+    - Led the development of a method and a pipeline to process air quality data from noisy sensors.
 - Delivered training on statistical modeling to academic research centers.
 
 **Limagrain** — *Researcher in Statistics* — 2018–2022
@@ -32,13 +44,13 @@ Supervised other 4 developpers for 260 days over 3 years.
 Reporting to: Nicolas Heslot.  
 Location: Chappes Research Center, Clermont-Ferrand, France.
 
-- Led genomic breeding projects, including a pilot, highly challenging maize breeding program:
-    - Data-driven genomic breeding decisions,
-    - Monitoring of field and greenhouse operations,
-    - Management of a maize breeding technician,
-    - Management of a 230 k€/year budget.
-- Contributed to a global platform serving genomic inference to international business teams (300+ users). My role included scientific overseeing and development.
-- Led ***Confidential*** research & reported internally. Contributed to change adoption across the organization.
+- Contributed to a global platform serving genomic inference to international business teams (300+ users), with responsibility for scientific oversight and development.
+- Led a portfolio of genomic breeding projects, including a pilot, highly challenging maize breeding program:
+    - data-driven genomic breeding decisions,
+    - monitoring of field, lab and greenhouse operations,
+    - management of a maize breeding technician,
+    - management of a 230 k€/year budget.
+- Produced *confidential* research, reported internally, and contributed to its adoption across the organization.
 
 **Biogemma** — *Researcher in Bioinformatics* — 2018, 7 months  
 
@@ -47,15 +59,15 @@ Location: Chappes Research Center, Clermont-Ferrand, France.
 
 - Research project on leveraging the haplotype block genome structure in GWAS.
 
-**INRAE** — *PhD Student* — 2014–2017
+**INRAE** — *PhD Student* — 2014–2018
 
 Reporting to: Leopoldo Sánchez and Luc Pâques.  
 Location: INRAE UR-AGPF, Orléans, France.
 
-- Parameterized a Bayesian multivariate model for the prediction of reaction norms. Inferred genetic parameters and heterosis as longitudinal trajectories.
+- Parameterized a Bayesian multivariate model for the prediction of reaction norms, leading to the inference of genetic parameters and heterosis as longitudinal trajectories rather than point estimates.
 - Adapted a water availability model to forest tree plantations at the individual tree level.
-- Demonstrated that the *Larix* genetic contrasts (heterosis and individual breeding values) were amplified with higher water availability (*i.e.* better growth conditions).
-- Contributed to the field data collection (about 3 weeks in the forest plantations) and curation.
+- Demonstrated that *Larix* genetic contrasts (heterosis and individual breeding values) were amplified under higher water availability, *i.e.* better growth conditions.
+- Contributed to field data collection (about 3 weeks in forest plantations) and data curation.
 
 **University of Connecticut**, USA — 2017, 3 months  
 
@@ -73,10 +85,11 @@ Location: Cirad UMR-AGAP, Montpellier, France.
 
 - Alongside my studies, tutoring of high school and middle school students in scientific subjects.
 
-**CSIRO**, Brisbane, Australia — 2010, 6 months 
+**CSIRO** — *Internship* — Brisbane, Australia. — 2010, 6 months
 
-- Internship at Tim Heard laboratory of Entomology.
-- Technical contribution to a research project on the biocontrol of an invasive weed using insects.
+Reporting to: Tim Heard 
+
+- Contributed technically to a research project on the biocontrol of an invasive weed using insects.
 
 ## Supervised internships
 

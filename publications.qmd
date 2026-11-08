@@ -15,6 +15,10 @@ As a consultant (2023–2026), I resumed publishing alongside client work.
 
 *under review* - **Marchal, A.**, Trottier, C., Bry, X., Raimondi, D. `pyreml`*: a general-purpose, GPU-accelerated mixed model solver in Python*. bioRxiv preprint: [https://doi.org/10.64898/2026.10.20.757556](https://doi.org/10.64898/2026.10.20.757556)
 
+*under review* - Raimondi, D., Ferrero-Serrano, A., **Marchal, A.** Domain adaptation improves cross-population genotype-phenotype prediction in *Arabidopsis thaliana*.
+
+*under review* - Raimondi, D., **Marchal, A.** Multiple kernel data fusion with linear mixed models predicts environmental-stress growth phenotypes in natural yeast populations.
+
 2026 - **Marchal, A.**, Lamure, M., Lefort, T., Imbach, F. *Bayesian implementation of the factor-analytic mixed model and application to embeddings.* Stat 15, no. 3: e70164. [https://doi.org/10.1002/sta4.70164](https://doi.org/10.1002/sta4.70164)
 
 2025 - **Marchal, A.**, Benazieb, O., Weldegebriel, Y., Méline, T., Imbach, F. *Statistical flaws of the fitness-fatigue sports performance prediction model*. Scientific Reports, 15(1), 3706. [https://doi.org/10.1038/s41598-025-88153-7](https://doi.org/10.1038/s41598-025-88153-7)
