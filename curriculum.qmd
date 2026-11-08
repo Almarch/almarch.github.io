@@ -83,9 +83,10 @@ Location: Cirad UMR-AGAP, Montpellier, France.
 
 - Alongside my studies, tutoring of high school and middle school students in scientific subjects.
 
-**CSIRO** — *Internship* — Brisbane, Australia. — 2010, 6 months
+**CSIRO** — *Internship* — 2010, 6 months
 
 Reporting to: Tim Heard 
+Location: CSIRO, Brisbane, Australia.
 
 - Contributed technically to a research project on the biocontrol of an invasive weed using insects.
 
@@ -110,7 +111,10 @@ Reporting to: Tim Heard
 Training supervision: Jérôme-Philippe Garsi.  
 Location: At the client, all of France.
 
-*Statistics* and statistical software (R) — animated 17 training sessions for a total of 44 days, with an average satisfaction grade of 8.9/10. Some trainings were not graded.
+*Statistics* and statistical software — animated 17 training sessions for a total of 44 days, with an average satisfaction grade of 8.9/10.
+Some trainings were not graded.
+The training activity was certified Qualiopi.
+
 With a conversion from days to hour of 7h/day (which is an approximation, some days were longer and some were shorter), the corresponding volume is **308 hours**.
 
 </br>
