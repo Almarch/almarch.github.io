@@ -16,11 +16,7 @@ Location: CNRS UMR-IGMM, Montpellier, France.
     - More than 12 times faster (running on A100 GPU) than the state-of-the-art software Wombat (running on 64 CPUs) on a GBLUP benchmark.
     - Implements a wide range of mixed model specification, including the factor-analytic model.
     All specifications are listed in [pyreml]{.pyreml}'s [doc](https://ai-for-genome-interpretation-lab.github.io/pyreml/variance_structures.html)
-
-**Seenovate** — *Data Science Consultant* — 2023–2026  
-
-Reporting to: Frank Imbach.  
-Location: Montpellier, France.
+- Contributed to the lab's broader research projects, with collaborative articles under review.
 
 **Seenovate** — *Data Science Consultant* — 2023–2026  
 
@@ -50,7 +46,9 @@ Location: Chappes Research Center, Clermont-Ferrand, France.
     - monitoring of field, lab and greenhouse operations,
     - management of a maize breeding technician,
     - management of a 230 k€/year budget.
-- Produced *confidential* research, reported internally, and contributed to its adoption across the organization.
+- Produced *confidential* research on genomic model optimization and automated processing of genomic and field data, reported internally, and contributed to change adoption across the organization.
+- Supervised 2 research interns.
+- Delivered internal training on genomic selection and quantitative genetics to an international community of breeders.
 
 **Biogemma** — *Researcher in Bioinformatics* — 2018, 7 months  
 
