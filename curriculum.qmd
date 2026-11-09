@@ -85,7 +85,7 @@ Location: Cirad UMR-AGAP, Montpellier, France.
 
 **CSIRO** — *Internship* — 2010, 6 months
 
-Reporting to: Tim Heard 
+Reporting to: Tim Heard  
 Location: CSIRO, Brisbane, Australia.
 
 - Contributed technically to a research project on the biocontrol of an invasive weed using insects.
