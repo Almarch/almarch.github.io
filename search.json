@@ -35,13 +35,6 @@
     "text": "Education\nPhD in Quantitative Genetics — 2014–2018\nINRAE & University of Orléans - Doctoral school 549 - SSBCV\nMSc in Statistics for Health and Life Sciences — 2014\nUniversity of Montpellier\nMSc in Agriculture, specialized in Plant Productions — 2013\nUniLaSalle Beauvais"
   },
   {
-    "objectID": "curriculum.html#side-projects",
-    "href": "curriculum.html#side-projects",
-    "title": "Curriculum",
-    "section": "Side projects",
-    "text": "Side projects\npygotchi – a vintage Tamagotchi emulator served as a web application, giving each registered user their own pet. Identity and authentication is handled with Keycloak, and the stack is deployed with Docker Compose, as the game state is held in memory.\npokédex – an on-premise chatbot using retrieval-augmented generation on a Qdrant vector database, deployed on Kubernetes."
-  },
-  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
