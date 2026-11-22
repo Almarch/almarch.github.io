@@ -25,13 +25,13 @@ This places my work at the interface of quantitative genetics, statistical model
 ### Trajectory
 
 After a PhD in quantitative genetics at INRAE-Orléans (2014–2018), I spent ~5 years in the genomic breeding industry and 3 years as a data science consultant.
-I then returned to academia as a post-doc researcher at [IGMM — CNRS](https://www.igmm.cnrs.fr/en/team/ai-for-genome-interpretation/), where I work on integrating mixed model concepts into neural network models for genomic prediction.
+I then returned to academia as a post-doc researcher at [IGMM -- CNRS](https://www.igmm.cnrs.fr/en/team/ai-for-genome-interpretation/), where I work on integrating mixed model concepts into neural network models for genomic prediction.
 
 I have taught **700+** hours, starting with science tutoring during my studies (197 hours), then as a teaching assistant at the University of Orléans during my PhD (128 hours), and in professional training (about 378 hours). I have also supervised 4 MSc interns.
 
 ### Latest
 
-- **Software, 2026** — [`m2n2` - mixed modeling with neural networks.](https://ai-for-genome-interpretation-lab.github.io/m2n2/)
-- **under review** — [[pyreml]{.pyreml}: a general-purpose, GPU-accelerated mixed model solver in Python](https://doi.org/10.64898/2026.10.20.757556).
-- **Stat, 2026** — [Bayesian implementation of the factor-analytic mixed model and application to embeddings](https://doi.org/10.1002/sta4.70164).
-- **Scientific Reports, 2025** — [Statistical flaws of the fitness-fatigue sports performance prediction model](https://doi.org/10.1038/s41598-025-88153-7)
+- **Software, 2026** -- [[m2n2]{.m2n2}: mixed modeling with neural networks](https://ai-for-genome-interpretation-lab.github.io/m2n2/)
+- **under review** -- [[pyreml]{.pyreml}: a general-purpose, GPU-accelerated mixed model solver in Python](https://doi.org/10.64898/2026.10.20.757556).
+- **Stat, 2026** -- [Bayesian implementation of the factor-analytic mixed model and application to embeddings](https://doi.org/10.1002/sta4.70164).
+- **Scientific Reports, 2025** -- [Statistical flaws of the fitness-fatigue sports performance prediction model](https://doi.org/10.1038/s41598-025-88153-7)
