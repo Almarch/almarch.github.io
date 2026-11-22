@@ -27,9 +27,11 @@ As a consultant (2023–2026), I resumed publishing alongside client work.
 
 2017 - **Marchal, A.**, Muñoz, F., Millier, F., Sánchez, L., Pâques, L. E. *Hybrid larch heterosis: for which traits and under which genetic control?* Tree Genetics & Genomes, 13, 92. [https://doi.org/10.1007/s11295-017-1177-1](https://doi.org/10.1007/s11295-017-1177-1)
 
-2016 - **Marchal, A.**, Legarra, A., Tisné, S., Carasco-Lacombe, C., Manez, A., Suryana, E., Omoré, A., Nouy, B., Durand-Gasselin, T., Sánchez, L., Bouvet, J.-M., Cros, D. *Multivariate genomic model improves analysis of oil palm (*Elaeis guineensis *Jacq.) progeny tests.* Molecular Breeding, 36, 2. [https://doi.org/10.1007/s11032-015-0423-1](https://doi.org/10.1007/s11032-015-0423-1)
+2016 - **Marchal, A.**, Legarra, A., Tisné, S., Carasco-Lacombe, C., Manez, A., Suryana, E., Omoré, A., Nouy, B., Durand-Gasselin, T., Sánchez, L., Bouvet, J.-M., Cros, D. *Multivariate genomic model improves analysis of oil palm (*Elaeis guineensis *Jacq.) progeny tests.* Molecular Breeding, 36, 2. [https://doi.org/10.5281/zenodo.24401053](https://doi.org/10.5281/zenodo.24401053)
 
 ## Software
+
+2026 - **Marchal, A.**, & Raimondi, D. `m2n2` - mixed modeling with neural networks. [https://doi.org/10.5281/zenodo.21394319](https://doi.org/10.5281/zenodo.21394319)
 
 2026 - **Marchal, A.**, & Raimondi, D. `pyreml` - general-purpose linear mixed model solver. [https://doi.org/10.5281/zenodo.21394319](https://doi.org/10.5281/zenodo.21394319)
 
