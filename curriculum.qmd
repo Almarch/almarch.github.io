@@ -273,12 +273,6 @@ Intervention in classes of: Arnaud Menuet and Thierry Normand
 
 - One-to-one teaching of high school and middle school students in scientific subjects, for a total of **197 hours**.
 
-## Side projects
-
-**[pygotchi](https://github.com/almarch/pygotchi)**: ships a vintage emulator to a server and distributes an individual pet to several registered users. IAM is managed with Keycloak, the deployment is docker-compose as the game is stateful and held in memory.
-
-**[pokedex](https://github.com/almarch/pokedex)**: on premise chatbot including RAG, based on a Qdrant vector database and deployed with k8s.
-
 ## Education
 
 **PhD in Quantitative Genetics** — 2014–2018  
@@ -290,3 +284,8 @@ University of Montpellier
 **MSc in Agriculture, specialized in Plant Productions** — 2013  
 UniLaSalle Beauvais
 
+## Side projects
+
+<a href="https://github.com/almarch/pygotchi"><strong>pygotchi</strong></a> -- a vintage Tamagotchi emulator served as a web application, giving each registered user their own pet. Identity and authentication is handled with Keycloak, and the stack is deployed with Docker Compose, as the game state is held in memory.
+
+<a href="https://github.com/almarch/pokedex"><strong>pokedex</strong></a> -- an on-premise chatbot using retrieval-augmented generation on a Qdrant vector database, deployed on Kubernetes.
