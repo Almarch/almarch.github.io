@@ -31,7 +31,7 @@ I have taught **700+** hours, starting with science tutoring during my studies (
 
 ### Latest
 
+- **Software, 2026** — [`m2n2` - mixed modeling with neural networks.](https://ai-for-genome-interpretation-lab.github.io/m2n2/)
 - **under review** — [[pyreml]{.pyreml}: a general-purpose, GPU-accelerated mixed model solver in Python](https://doi.org/10.64898/2026.10.20.757556).
 - **Stat, 2026** — [Bayesian implementation of the factor-analytic mixed model and application to embeddings](https://doi.org/10.1002/sta4.70164).
-- **Software, 2026** — [`meiosim`: simulate crosses and play with quantitative genetics in Python](https://github.com/AI-for-Genome-Interpretation-lab/meiosim)
 - **Scientific Reports, 2025** — [Statistical flaws of the fitness-fatigue sports performance prediction model](https://doi.org/10.1038/s41598-025-88153-7)
