@@ -32,14 +32,7 @@
     "href": "curriculum.html#side-projects",
     "title": "Curriculum",
     "section": "Side projects",
-    "text": "Side projects"
-  },
-  {
-    "objectID": "curriculum.html#side-projects-1",
-    "href": "curriculum.html#side-projects-1",
-    "title": "Curriculum",
-    "section": "Side projects",
-    "text": "Side projects\n\npygotchi: vintage Tamagotchi emulator (built on TamaLIB) served as a web application, with an individual pet for each registered user. Authentication is managed with Keycloak. The stack is deployed with Docker Compose rather than Kubernetes, as the game is stateful and held in memory.\npokedex: on-premise AI assistant with retrieval-augmented generation. An agent decomposes user queries, retrieves documents from a Qdrant vector database and re-ranks them before generation with Ollama. Deployed as microservices on Kubernetes (k3s)."
+    "text": "Side projects\npygotchi: ships a vintage emulator to a server and distributes an individual pet to several registered users. IAM is managed with Keycloak, the deployment is docker-compose as the game is stateful and held in memory.\npokedex: on premise chatbot including RAG, based on a Qdrant vector database and deployed with k8s."
   },
   {
     "objectID": "curriculum.html#education",
