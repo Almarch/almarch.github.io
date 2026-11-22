@@ -273,6 +273,14 @@ Intervention in classes of: Arnaud Menuet and Thierry Normand
 
 - One-to-one teaching of high school and middle school students in scientific subjects, for a total of **197 hours**.
 
+## Side projects
+
+## Side projects
+
+- [pygotchi](https://github.com/almarch/pygotchi): vintage Tamagotchi emulator (built on TamaLIB) served as a web application, with an individual pet for each registered user. Authentication is managed with Keycloak. The stack is deployed with Docker Compose rather than Kubernetes, as the game is stateful and held in memory.
+
+- [pokedex](https://github.com/almarch/pokedex): on-premise AI assistant with retrieval-augmented generation. An agent decomposes user queries, retrieves documents from a Qdrant vector database and re-ranks them before generation with Ollama. Deployed as microservices on Kubernetes (k3s).
+
 ## Education
 
 **PhD in Quantitative Genetics** — 2014–2018  
