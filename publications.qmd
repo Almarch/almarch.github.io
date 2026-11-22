@@ -31,7 +31,7 @@ As a consultant (2023–2026), I resumed publishing alongside client work.
 
 ## Software
 
-2026 - **Marchal, A.**, & Raimondi, D. `m2n2` - mixed modeling with neural networks. [https://doi.org/10.5281/zenodo.21394319](https://doi.org/10.5281/zenodo.21394319)
+2026 - **Marchal, A.**, & Raimondi, D. `m2n2` - mixed modeling with neural networks. [https://doi.org/10.5281/zenodo.24401053](https://doi.org/10.5281/zenodo.24401053)
 
 2026 - **Marchal, A.**, & Raimondi, D. `pyreml` - general-purpose linear mixed model solver. [https://doi.org/10.5281/zenodo.21394319](https://doi.org/10.5281/zenodo.21394319)
 
