@@ -39,7 +39,7 @@
     "href": "curriculum.html#side-projects",
     "title": "Curriculum",
     "section": "Side projects",
-    "text": "Side projects\npygotchi – a vintage Tamagotchi emulator served as a web application, giving each registered user their own pet. Identity and authentication is handled with Keycloak, and the stack is deployed with Docker Compose, as the game state is held in memory.\npokedex – an on-premise chatbot using retrieval-augmented generation on a Qdrant vector database, deployed on Kubernetes."
+    "text": "Side projects\npygotchi – a vintage Tamagotchi emulator served as a web application, giving each registered user their own pet. Identity and authentication is handled with Keycloak, and the stack is deployed with Docker Compose, as the game state is held in memory.\npokédex – an on-premise chatbot using retrieval-augmented generation on a Qdrant vector database, deployed on Kubernetes."
   },
   {
     "objectID": "publications.html",
