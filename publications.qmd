@@ -15,7 +15,7 @@ As a consultant (2023–2026), I resumed publishing alongside client work.
 
 *under review* - **Marchal, A.**, Trottier, C., Bry, X., Raimondi, D. `pyreml`*: a general-purpose, GPU-accelerated mixed model solver in Python*. bioRxiv preprint: [https://doi.org/10.64898/2026.10.20.757556](https://doi.org/10.64898/2026.10.20.757556)
 
-*under review* - Raimondi, D., Ferrero-Serrano, A., **Marchal, A.** Domain adaptation improves cross-population genotype-phenotype prediction in *Arabidopsis thaliana*.
+*under review* - Raimondi, D., Federico, C., Ferrero-Serrano, A., **Marchal, A.** Domain adaptation improves cross-population genotype-phenotype prediction in *Arabidopsis thaliana*.
 
 *under review* - Raimondi, D., **Marchal, A.** Multiple kernel data fusion with linear mixed models predicts environmental-stress growth phenotypes in natural yeast populations.
 
