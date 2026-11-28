@@ -283,6 +283,7 @@ Developed a breeding simulator for a series of practical courses on quantitative
         <tr>
             <th>Academic year</th>
             <th>Format</th>
+            <th>Level</th>
             <th>Subject</th>
             <th>Hours</th>
         </tr>
@@ -291,48 +292,56 @@ Developed a breeding simulator for a series of practical courses on quantitative
         <tr>
             <td>2015–2016</td>
             <td>TD</td>
+            <td>L3</td>
             <td>Quantitative genetics</td>
             <td style="text-align: right;">14</td>
         </tr>
         <tr>
             <td>2015–2016</td>
             <td>TD</td>
+            <td>L1</td>
             <td>Population genetics</td>
             <td style="text-align: right;">18</td>
         </tr>
         <tr>
             <td>2015–2016</td>
             <td>TD</td>
+            <td>L1</td>
             <td>Mendelian genetics</td>
             <td style="text-align: right;">8</td>
         </tr>
         <tr>
             <td>2015–2016</td>
             <td>TP</td>
+            <td>L1</td>
             <td>Mendelian genetics</td>
             <td style="text-align: right;">24</td>
         </tr>
         <tr>
             <td>2014–2015</td>
             <td>TD</td>
+            <td>L3</td>
             <td>Quantitative genetics</td>
             <td style="text-align: right;">12</td>
         </tr>
         <tr>
             <td>2014–2015</td>
             <td>TD</td>
+            <td>L1</td>
             <td>Mendelian genetics</td>
             <td style="text-align: right;">26</td>
         </tr>
         <tr>
             <td>2014–2015</td>
             <td>TD</td>
+            <td>L1</td>
             <td>Experimental approaches</td>
             <td style="text-align: right;">2</td>
         </tr>
         <tr>
             <td>2014–2015</td>
             <td>TP</td>
+            <td>L1</td>
             <td>Mendelian genetics</td>
             <td style="text-align: right;">24</td>
         </tr>
