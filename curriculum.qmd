@@ -4,6 +4,12 @@ page-layout: full
 toc: true
 ---
 
+<style>
+.uni-table th, .uni-table td {
+    padding: 4px 16px;
+}
+</style>
+
 ## Professional Experience
 
 **CNRS** — *Post-doc* — 2026–present
@@ -120,7 +126,7 @@ The training activity was certified Qualiopi.
 With a conversion from days to hour of 7h/day (which is an approximation, some days were longer and some were shorter), the corresponding volume is **308 hours**.
 
 </br>
-<table>
+<table class="uni-table">
     <thead>
         <tr>
             <th>Client</th>
@@ -262,12 +268,77 @@ With a conversion from days to hour of 7h/day (which is an approximation, some d
 - 1 week visit at AgReliant, Westfield USA for an intensive training (5 days, ≈ 35 hours).
 - Preparation of the video supports during Covid-19.
 
-**University of Orléans** — 2014–2018  
+</br>
+
+**University of Orléans** — 2014–2016  
 
 Intervention in classes of: Arnaud Menuet and Thierry Normand
 
-- *Genetics* (Mendelian / populations / quantitative) — Assistant teacher for 2 years, for a total of **128h**.
-- Developped a breeding simulator for a series of practical courses on quantitative genetics.
+*Genetics* (Mendelian / populations / quantitative) — Assistant teacher for 2 years, for a total of **128 hours**.
+Developed a breeding simulator for a series of practical courses on quantitative genetics.
+
+</br>
+<table class="uni-table">
+    <thead>
+        <tr>
+            <th>Academic year</th>
+            <th>Format</th>
+            <th>Subject</th>
+            <th>Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2015–2016</td>
+            <td>TD</td>
+            <td>Quantitative genetics</td>
+            <td style="text-align: right;">14</td>
+        </tr>
+        <tr>
+            <td>2015–2016</td>
+            <td>TD</td>
+            <td>Population genetics</td>
+            <td style="text-align: right;">18</td>
+        </tr>
+        <tr>
+            <td>2015–2016</td>
+            <td>TD</td>
+            <td>Mendelian genetics</td>
+            <td style="text-align: right;">8</td>
+        </tr>
+        <tr>
+            <td>2015–2016</td>
+            <td>TP</td>
+            <td>Mendelian genetics</td>
+            <td style="text-align: right;">24</td>
+        </tr>
+        <tr>
+            <td>2014–2015</td>
+            <td>TD</td>
+            <td>Quantitative genetics</td>
+            <td style="text-align: right;">12</td>
+        </tr>
+        <tr>
+            <td>2014–2015</td>
+            <td>TD</td>
+            <td>Mendelian genetics</td>
+            <td style="text-align: right;">26</td>
+        </tr>
+        <tr>
+            <td>2014–2015</td>
+            <td>TD</td>
+            <td>Experimental approaches</td>
+            <td style="text-align: right;">2</td>
+        </tr>
+        <tr>
+            <td>2014–2015</td>
+            <td>TP</td>
+            <td>Mendelian genetics</td>
+            <td style="text-align: right;">24</td>
+        </tr>
+    </tbody>
+</table>
+</br>
 
 **Acadomia** — 2011–2013  
 
